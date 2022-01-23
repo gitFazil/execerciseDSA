@@ -12,7 +12,5 @@ function countFriendsPairings(n) {
   }
   return c;
 }
-
-// Driver code
 let n = 5;
 console.log(countFriendsPairings(n));
