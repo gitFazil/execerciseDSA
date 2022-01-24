@@ -20,7 +20,7 @@ function Queue() {
     return collection.length === 0;
   };
   this.reverseK = function (k) {
-    if (collection.length <= k || this.isEmpty == true) {
+    if (collection.length < k || this.isEmpty == true) {
       return "empty or out of bound";
     } else {
       for (let i = 1; i <= k; i++) {
